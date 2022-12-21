@@ -1,0 +1,245 @@
+.home {
+  background-color: rgb(238, 237, 237);
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  column-gap: 30px;
+  padding: 10px;
+  background-color: gray;
+}
+
+.socialmedia {
+  font-size: 30px;
+  display: flex;
+  column-gap: 30px;
+}
+
+.nav-menu1 {
+  display: flex;
+  column-gap: 30px;
+  font-size: 20px;
+  margin-right: 200px;
+}
+
+.nav-menu1 > a {
+  text-decoration: none;
+  color: black;
+  transform: 0.3s;
+  cursor: pointer;
+}
+
+.nav-menu1 > a:hover {
+  color: rgb(177, 119, 11);
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 50px;
+  padding: 15px;
+  background-color: rgb(241, 240, 240);
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 700;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.logo:hover {
+  color:#ec5242;
+}
+
+.nav-items > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+
+.nav-items > ul > li {
+  font-size: 20px;
+  padding: 10px;
+  transform: 0.3s;
+  cursor: pointer;
+}
+
+.nav-items > ul > li:hover {
+  color:#ec5242;
+}
+
+.campaign {
+  font-size: 23px;
+  padding: 20px;
+  color:#ec5242;
+  border: 3px solid#ec5242;
+}
+
+.home-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 200px;
+  column-gap: 0;
+}
+
+.home-content > p {
+  font-size: 35px;
+  color:#ec5242;
+}
+
+.home-content > h1 {
+  font-size: 40px;
+  color:#ec5242;
+  font-weight: bolder;
+}
+
+.primary-text > p {
+  font-size: 17px;
+  border: 3px solid white;
+  width: 55%;
+}
+
+.time > h1 {
+  font-size: 33px;
+}
+
+.time > P {
+  font-size: 20px;
+}
+
+.title > h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  padding: 20px;
+
+}
+
+.main-program {
+  width: 100vw;
+  background-color: #272a31;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardwork {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  padding: 30px;
+}
+
+.card {
+  background-color: gray;
+  height: 222px;
+  width: 222px;
+   transition: box-shadow 0.4s ease-out;
+   cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: wheat;
+}
+
+.card:active {
+    border: 3px solid white;
+}
+
+.program-description > h3 {
+  display: flex;
+  justify-content: center;
+  color:#ec5242;
+  font-size: 25px;
+}
+
+.program-description > p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+
+.main-program-footer {
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.main-speakers > h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 35px;
+}
+
+.SPEAKERS {
+display: grid;
+grid-template-columns: repeat(2, auto);
+margin-left: 200px;
+}
+
+.speaker {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px ;
+    height: 250px;
+}
+
+.speaker-photo {
+    height: 150px;
+    width: 50%;
+    background-color: aqua;
+}
+
+.profession-description {
+    font-size: 18px;
+    width: 50%;
+}
+
+.partners > h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 35px;
+}
+
+.partner-icons {
+  background-color: #272a31;
+  height: 250px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 200px;
+  padding: 40px;
+}
+
+.footer-logo {
+  font-size: 30px;
+  font-weight: 700;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.copyrights {
+  font-size: 18px;
+}
